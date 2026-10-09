@@ -1,6 +1,6 @@
 # Part 1 Docker file Creation, GitHub and Docker Hub Integration
 ## Step 1 Identify a Sample Application
-&nbsp;
+
 This code defines a simple FastAPI application with a single root endpoint that returns a JSON greeting message.
 
 We are going to dockerize it so it can run consistently in a containerized environment, making deployment and scaling easier.
@@ -19,5 +19,5 @@ def read_root():
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
-&nbsp;
+
 ## Step 2 Identify the Dependencies
