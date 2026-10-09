@@ -1,0 +1,11 @@
+[project]
+name = "assignment1-part1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.143.0",
+    "unicorn>=2.1.4",
+    "uvicorn>=0.54.0",
+]
