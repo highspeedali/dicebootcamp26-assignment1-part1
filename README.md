@@ -1,7 +1,7 @@
 # Part 1 Docker file Creation, GitHub and Docker Hub Integration
 ## Step 1 Identify a Sample Application
 
-This code defines a simple FastAPI application with a single root endpoint that returns a greeting message `Hello from assignment1-part1!`.
+Following code defines a simple FastAPI application with a single root endpoint that returns a greeting message `Hello from assignment1-part1!`.
 
 We are going to dockerize it so it can run consistently in a containerized environment, making deployment and scaling easier.
 
