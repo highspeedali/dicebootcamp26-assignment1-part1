@@ -131,10 +131,10 @@ ubuntu@ubuntu:~/assignments/assignment1-part1$
 Use `curl localhost` to see if you get the response as shown below
 
 ```
-ubuntu@ubuntu:~/dice-live16-docker$ curl localhost
+ubuntu@ubuntu:~/assignments/assignment1-part1$ curl localhost
 ["Hello from assignment1-part1!"]
-ubuntu@ubuntu:~/dice-live16-docker$
-ubuntu@ubuntu:~/dice-live16-docker$
+ubuntu@ubuntu:~/assignments/assignment1-part1$
+ubuntu@ubuntu:~/assignments/assignment1-part1$
 ```
 
 ## Step 5 Push the Docker Image to Docker Hub
@@ -142,14 +142,14 @@ ubuntu@ubuntu:~/dice-live16-docker$
 Login to *Docker Hub* using `docker login` command. After authentication, you should see **Login Succeeded** message as shown below
 
 ```
-ubuntu@ubuntu:~/dice-live16-docker$
-ubuntu@ubuntu:~/dice-live16-docker$ docker login
+ubuntu@ubuntu:~/assignments/assignment1-part1$
+ubuntu@ubuntu:~/assignments/assignment1-part1$ docker login
 .
 .
 .
 Login Succeeded
-ubuntu@ubuntu:~/dice-live16-docker$
-ubuntu@ubuntu:~/dice-live16-docker$
+ubuntu@ubuntu:~/assignments/assignment1-part1$
+ubuntu@ubuntu:~/assignments/assignment1-part1$
 ```
 
 Tag your image using `docker tag` command. This command creates a new tag for your existing image. 
@@ -224,3 +224,4 @@ highspeedali/dicebootcamp26:assign1   b466f1bc7614        585MB          142MB  
 mysql:latest                          9d48c42f8341        1.3GB          290MB
 ubuntu@ubuntu:~/assignments/assignment1-part1$
 ```
+
